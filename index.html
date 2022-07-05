@@ -1,135 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Master-home</title>
-    <meta name="description" content="">
-
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="shortcut icon" href="./Assets/Img/DarkMaster Logo P.png">
-</head>
-<body>
-    <header>
-        <img class="logo" src="./Assets/Img/DarkMaster Logo.jpg" alt="logo">
-        <a class="logo_name">Dark Master</a>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="News.html">News</a></li>
-                <li><a href="Games.html">Games</a></li>
-                <li><a href="Apps.html">Apps</a></li>
-            </ul>
-        </nav>
-        <a class="cta" href="Profile.html" target="_blank"><button>Profile</button></a>
-    </header>
-
-    <div>
-        <ul class="games">
-
-            <li class="game">
-                <a href="./Rainbow disease.html"><img id="game_icon" src="./Assets/Img/icons/Rainbow disease Logo.png"></a>
-                <h1 id="game_name">
-                    Rainbow disease
-                    <h1 id="game_info">
-                        --Monsters~~Servivel~~Adventures--
-                    </h1>
-                </h1>
-            </li>
-            
-        </ul>
-
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | v1V1</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/HTML.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">v1V1</div>
+      </div>
     </div>
-    <div>
-        <ul class="contents">
-
-            <li class="content_text">
-                <h1 id="content_name">
-                    2Two years in the field of game development and I would like to present its developments in this field 1,2,3.
-                </h1>
-            </li>
-
-            <li class="content">
-                <img id="content_icon" src="./Assets/Img/Developer Updtaes/Developer Updates.jpg">
-            </li>
-
-            <li class="content_info">
-                <h1 id="content_info">
-                    I would like to present its developments in this field 1,2,3
-The development in drawings 1 was 6 months ago, the development 2 also 6 months ago, the development 3, and the last one, a full year ago, to catch up on all the developments.
-                </h1>
-            </li>
-            
-        </ul>
-
-        <ul class="contents">
-
-            <li class="content_text">
-                <h1 id="content_name">
-                    Review of my first game development project called "Rainbow disease". #DevUpdate 1
-                </h1>
-            </li>
-
-            <li class="content">
-                <iframe src="https://www.youtube.com/embed/xfZIAsCv78Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </li>
-
-            <li class="content_info">
-                <h1 id="content_info">
-                    This is the beginning of my first project called "Rainbow Disease".
-                </h1>
-            </li>
-            
-        </ul>
-
-        <ul class="contents">
-
-            <li class="content_text">
-                <h1 id="content_name">
-                    A review of my game "Rainbow disease" after a major update. #DevUpdate 2
-                </h1>
-            </li>
-
-            <li class="content">
-                <iframe src="https://www.youtube.com/embed/HO9yhM1S1Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </li>
-
-            <li class="content_info">
-                <h1 id="content_info">
-                    There have been very big developments and changes since the first presentation, the game has become in an advanced stage and soon I will announce an "Apha" to start trying the game and see what updates we will offer to improve the game. Thank you to everyone who is waiting for my game.
-                </h1>
-            </li>
-            
-        </ul>
-    </div>
-    <div>
-        <ul class="contents">
-
-            <li class="content_text">
-                <h1 id="content_name">
-                    Im Developer Games logo name"Dark Master"
-                    I have experience in game programming, art of drawing, a little music, a little website programming, and a little application or software programming
-                    and Thx you to everyone who is waiting to see many of my creations.
-                </h1>
-            </li>
-
-            <li class="content">
-                <img id="content_icon" src="./Assets/Img/DarkMaster Logo.jpg">
-            </li>
-
-            <li class="content_info">
-                <h1 id="content_info">
-                    Follow me :
-                </h1>
-                <h1><a class="link_yt" href="https://www.youtube.com/channel/UC3Pp6okHhTfDrwdW6gaUlDA" target="_blank">myChannle</a></h1>
-                <h1><a class="link_fac" href="https://web.facebook.com/profile.php?id=100073979503940&_rdc=1&_rdr" target="_blank">myFacebook</a></h1>
-                <h1><a class="link_ins" href="https://www.instagram.com/darkmastergames22/" target="_blank">myInstagram</a></h1>
-                <h1><a class="link_twt" href="https://twitter.com/DarkMas86736714" target="_blank">myTwitter</a></h1>
-            </li>
-            
-        </ul>
-
-    </div>
-</body>
+  </body>
 </html>
